@@ -1,0 +1,49 @@
+# Go
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Executables generated in the repository root
+/Go-Virado-No-Gopher
+/app
+/main
+
+# Go workspace files
+# go.work is intentionally not ignored.
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Fedora / Linux
+*~
+.nfs*
+.directory
+.Trash-*
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
