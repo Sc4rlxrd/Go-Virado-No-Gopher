@@ -78,13 +78,9 @@ func main() {
 
 	p, q := 0b1100, 0b1010 // 12 e 10 em notação binária
 	fmt.Println("--- Operadores Bitwise ---")
-	fmt.Printf("AND (&):   %04b (%d)\n", p&q)
-
-	fmt.Printf("OR (|):    %04b (%d)\n", p|q)
-
-	fmt.Printf("XOR (^):   %04b (%d)\n", p^q)
-
+	fmt.Printf("AND (&):   %04b (%d)\n", p&q, p&q)
+	fmt.Printf("OR (|):    %04b (%d)\n", p|q, p|q)
+	fmt.Printf("XOR (^):   %04b (%d)\n", p^q, p^q)
 	fmt.Printf("BIT CLEAR (&^): %04b (%d)\n", p&^q, p&^q) // Operador exclusivo do Go (AND NOT)
-
 	fmt.Printf("Shift Left (<<):%04b (%d)\n", p<<1, p<<1) // Desloca os bits para a esquerda (multiplica por 2)
 }

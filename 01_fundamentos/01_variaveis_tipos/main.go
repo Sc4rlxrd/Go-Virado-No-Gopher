@@ -10,8 +10,8 @@ func main() {
 
 	fmt.Println("------  Zero Values (Valores Padrão)  ------")
 	fmt.Printf("service (string): %q\\n", service) // "" (string vazia)
-	fmt.Printf("door (int): %d\\n", door)        // 0
-	fmt.Printf("active (bool): %t\\n", active)       // false
+	fmt.Printf("door (int): %d\\n", door)          // 0
+	fmt.Printf("active (bool): %t\\n", active)     // false
 
 	// Declaração com inicialização e inferência de tipo de vida curta (operador :=)
 	// Disponível apenas dentro de funções
@@ -32,5 +32,3 @@ func main() {
 	fmt.Printf("Memória: %.2f GB (Tipo: %T)\\n", memoriaGB, memoriaGB)
 
 }
-
-

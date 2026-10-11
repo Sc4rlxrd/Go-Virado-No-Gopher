@@ -12,7 +12,7 @@ func main() {
 	}
 
 	println()
-	//  For estilo 'while' (Apenas a Condição) 
+	//  For estilo 'while' (Apenas a Condição)
 	// // Em Go, 'while' não existe. Basta omitir o init e o post.
 
 	fmt.Println("---- For estilo While ----")
@@ -28,7 +28,7 @@ func main() {
 	//  For Infinito (estilo 'while(true)')
 
 	fmt.Println("---- For Infinito com Parada ----")
-	steps  := 0
+	steps := 0
 
 	for {
 		if steps >= 3 {
