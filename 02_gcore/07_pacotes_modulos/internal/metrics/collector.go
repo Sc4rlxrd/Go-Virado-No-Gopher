@@ -1,14 +1,13 @@
 package metrics
 
-
-import(
+import (
 	"fmt"
 )
 
 type Coletor struct {
-	 TotalRequisicoes int 
+	TotalRequisicoes int
 }
 
-func (c *Coletor) RegistrarUsoCPU( porcentagem float64){
+func (c *Coletor) RegistrarUsoCPU(porcentagem float64) {
 	fmt.Printf("[METRICS INTERNAL] Uso de CPU registrado: %.2f%%\n", porcentagem)
 }

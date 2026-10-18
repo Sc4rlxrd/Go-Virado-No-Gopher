@@ -11,6 +11,6 @@ const PortaPadrao = 8080
 var chaveSecreta = "fedora-secret-key"
 
 // Função exportada
-func ObterStringConexao(host string) string{
+func ObterStringConexao(host string) string {
 	return fmt.Sprintf("postgres://user:%s@%s:%d/db", chaveSecreta, host, PortaPadrao)
 }
